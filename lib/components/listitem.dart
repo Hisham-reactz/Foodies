@@ -109,7 +109,7 @@ class _ListItemloopWidgetState extends State<ListItemloopWidget> {
                   Expanded(
                       flex: 3,
                       child: Image.network(
-                        widget.data['dish_image'],
+                        'https://picsum.photos/seed/544/600', //api image url faulty
                         width: 25.w,
                         height: 25.w,
                         fit: BoxFit.cover,
